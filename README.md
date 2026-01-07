@@ -12,7 +12,7 @@ qwarp [command] [parameters]
 ```
 
 #### Commands
-```console
+```
 list                                        View your current configuration
 refresh                                     Fetch latest Valve servers' data
 block [Server name / country / index]       Block a specific server
@@ -31,7 +31,10 @@ unblock-ips [IP-1,IP-2,IP-3...]             Unblock multiple IPs at once
 Let's say you wanted to play on Frankfurt, Germany server specifically:  
 Keep in mind **super-user (administrator) privileges are required** to change Firewall settings!  
 
-`qwarp blackhole && qwarp unblock frankfurt`  
+```console
+qwarp blackhole  
+qwarp unblock frankfurt
+```  
 
   
 > [!WARNING]
