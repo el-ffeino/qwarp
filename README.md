@@ -1,11 +1,11 @@
 # qwarp
 
 Counter-Strike 2 matchmaking server chooser.  
+
 **Qwarp** *(Queue Warp)* is a cross-platform command-line program that allows you to block specific Counter-Strike 2 (Valve) servers.  
+It works by blocking the servers you don't want to play on within your system's Firewall on **Windows** and **Linux**.  
 
-## ⁉️ How does it work?
-It isolates the servers you want to play on by blocking the rest inside your system's firewall and works on both Windows and Linux systems.   
-
+## ⁉️ How do I use it?
 #### Usage
 ```console
 qwarp [command] [parameters]
