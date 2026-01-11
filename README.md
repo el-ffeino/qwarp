@@ -60,6 +60,5 @@ sudo pacman -S dotnet-runtime
 - Firewall changes are reset on reboot, you might be interested in making Qwarp run on startup.  
 
 ### Is it bannable?
-Qwarp does **NOT** interact with the game's files or memory in any way;  
-However, **I can't confirm whether Valve allows these kind of programs to be used or not**.  
-Use at your own risk.
+Qwarp does **NOT** interact with the game's files or memory in any way; However, I can't confirm whether Valve allows these kind of programs to be used or not.  
+**Use at your own risk!**
