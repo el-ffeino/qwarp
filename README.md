@@ -57,7 +57,9 @@ sudo pacman -S dotnet-runtime
 
 #### Notes for Linux users
 - Make sure the binary is executable with `chmod +x qwarp`.  
-- Firewall changes are reset on reboot, you might be interested in making Qwarp run on startup.  
+- Firewall changes are reset on reboot, you might be interested in making Qwarp run on startup if you don't want to run `qwarp` every time you boot up your PC.  
+
+It's been tested on Arch Linux, but it should work with any distribution as it only relies on the `ip` command 
 
 ### Is it bannable?
 Qwarp does **NOT** interact with the game's files or memory in any way; However, I can't confirm whether Valve allows these kind of programs to be used or not.  
