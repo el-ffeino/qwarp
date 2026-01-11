@@ -2,8 +2,8 @@
 
 Counter-Strike 2 matchmaking server chooser.  
 
-**Qwarp** *(Queue Warp)* is a cross-platform command-line program that allows you to block specific Counter-Strike 2 (Valve) servers.  
-It works by blocking the servers you don't want to play on within your system's Firewall on **Windows** and **Linux**.  
+**Qwarp** *(Queue Warp)* is a cross-platform command-line program that allows you to block specific Counter-Strike 2 (Valve) servers.
+It works by blocking the servers you don't want to play on within your system's firewall and is available for **Linux** and **Windows**.  
 
 ## ⁉️ How do I use it?
 #### Usage
@@ -38,9 +38,9 @@ qwarp unblock frankfurt
 
   
 > [!NOTE]
-> Steam Networking may still find a game in another server by routing it throught the selected server.  
-> To get around this, you can set `Options -> Game -> Maximum acceptable ping` to match the server(s) you've selected.  
-> (Unblocked servers will always have lower ping since there's no relays between)
+> Steam Networking may still find a game in another server by routing it throught the selected server.
+> To get around this, you can set `Options -> Game -> Maximum acceptable ping` to match the server(s) you've selected.
+> Unblocked servers will always have lower ping since there's no relays between.
 
 ## 📦 Dependencies
 Program is written in C#, therefore you'll need [.NET Runtime](https://dotnet.microsoft.com/en-us/download) to run it.  
@@ -62,5 +62,5 @@ sudo pacman -S dotnet-runtime
 It's been tested on Arch Linux, but it should work with any distribution as it only relies on the `ip` command 
 
 ### Is it bannable?
-Qwarp does **NOT** interact with the game's files or memory in any way; However, I can't confirm whether Valve allows these kind of programs to be used or not.  
+Qwarp does **NOT** interact with the game's files or memory in any way; However, I can't confirm whether Valve allows these kind of programs to be used or not.
 **Use at your own risk!**
