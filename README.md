@@ -37,16 +37,14 @@ qwarp unblock frankfurt
 ```  
 
   
-> [!WARNING]
+> [!NOTE]
 > Steam Networking may still find a game in another server by routing it throught the selected server.  
 > To get around this, you can set `Options -> Game -> Maximum acceptable ping` to match the server(s) you've selected.  
 > (Unblocked servers will always have lower ping since there's no relays between.)
 
 ## 📦 Dependencies
 Program is written in C#, therefore you'll need [.NET Runtime](https://dotnet.microsoft.com/en-us/download) to run it.  
-
-> [!NOTE]
-> Windows users likely already have it installed, but if not - [Download from Microsoft](https://dotnet.microsoft.com/en-us/download)
+Windows users likely already have it installed, but if not: [Download from Microsoft](https://dotnet.microsoft.com/en-us/download)!
 
 **Arch Linux**:  
 ```console
@@ -62,5 +60,6 @@ sudo pacman -S dotnet-runtime
 - Firewall changes are reset on reboot, you might be interested in making Qwarp run on startup.  
 
 ### Is it bannable?
-Qwarp does **NOT** interact with the game's files or memory in any way!  
-However, **I don't know whether Valve allows these kind of programs to be used or not**, I made this just for the sake of having Linux support since I couldn't find an alternative - use at your own risk.
+Qwarp does **NOT** interact with the game's files or memory in any way;  
+However, **I can't confirm whether Valve allows these kind of programs to be used or not**.  
+Use at your own risk.
