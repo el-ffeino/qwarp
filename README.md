@@ -29,7 +29,7 @@ unblock-ips [IP-1,IP-2,IP-3...]             Unblock multiple IPs at once
 
 ##### Example usage
 Let's say you wanted to play on Frankfurt, Germany server specifically:  
-Keep in mind **super-user (administrator) privileges are required** to change Firewall settings!  
+Keep in mind **superuser (administrator) privileges are required** to change Firewall settings!  
 
 ```console
 qwarp blackhole  
@@ -46,7 +46,7 @@ qwarp unblock frankfurt
 Program is written in C#, therefore you'll need [.NET Runtime](https://dotnet.microsoft.com/en-us/download) to run it.  
 
 > [!NOTE]
-> Windows users likely already have it installed, but if not - get [.NET runtime from Microsoft](https://dotnet.microsoft.com/en-us/download)
+> Windows users likely already have it installed, but if not - [Download from Microsoft](https://dotnet.microsoft.com/en-us/download)
 
 **Arch Linux**:  
 ```console
@@ -57,13 +57,10 @@ sudo pacman -S dotnet-runtime
 - Get the latest [release](https://github.com/el-ffeino/qwarp/releases) for either Linux or Windows
 - Unpack and you're good to go  
 
-#### Linux
-- Make sure the binary is executable with `chmod +x qwarp`.
+#### Notes for Linux users
+- Make sure the binary is executable with `chmod +x qwarp`.  
+- Firewall changes are reset on reboot, you might be interested in making Qwarp run on startup.  
 
-Since Firewall changes are reset on reboot, you might want to make it autorun on start.  
-Create `qwarp.service` file with the following contents:
-```
-[Service]
-WorkingDirectory=/
-ExecStart=
-```
+### Is it bannable?
+Qwarp does **NOT** interact with the game's files or memory in any way!  
+However, **I don't know whether Valve allows these kind of programs to be used or not**, I made this just for the sake of having Linux support since I couldn't find an alternative - use at your own risk.
