@@ -38,7 +38,7 @@ qwarp unblock frankfurt
 
   
 > [!NOTE]
-> Steam Networking may still find a game in another server by routing it throught the selected server.
+> Steam Networking may still find a game in another server by routing it through the selected server.
 > To get around this, you can set `Options -> Game -> Maximum acceptable ping` to match the server(s) you've selected.
 > Unblocked servers will always have lower ping since there's no relays between.
 
